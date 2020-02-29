@@ -22,10 +22,10 @@ const MarkerHeader = styled.h2`
 
 const IndexPage = () => (
   <Layout>
-  <MarkerHeader className="marker-header">
+
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-   </MarkerHeader>
-    <LandingBio />
+
+   <MarkerHeader className="marker-header"> <LandingBio />   </MarkerHeader>
   </Layout>
 )
 
