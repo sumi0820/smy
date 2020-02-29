@@ -24,7 +24,16 @@ const Description = styled.p`
 const NameHeader = styled.h1`
   font-size: 3.5rem;
   margin-bottom: 0;
+  border-radius: 1em 0 1em 0;
+  background-image: linear-gradient(
+    -100deg,
+    rgba(255, 250, 150, 0.15),
+    #057989 -50%,
+    rgba(255, 250, 150, 0.25)
+  );
 `
+
+
 
 const LandingBio = () => (
   <StaticQuery
