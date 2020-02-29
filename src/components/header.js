@@ -10,6 +10,13 @@ const Content = styled.div`
   max-width: 860px;
   padding: 1rem 1.0875rem;
   font-size: 1.2rem;
+  @media only screen and (max-width: 480px) {
+   {
+    max-width: 350px;
+    display:inline-block;
+    font-size: 100%;
+  }
+}
 `
 
 const NavLink = styled(Link)`
@@ -36,6 +43,11 @@ const NavLink = styled(Link)`
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+  @media only screen and (max-width: 480px) {
+   {
+    text:20%;
+  }
+}
 `
 
 const GitHubLink = styled.a`
@@ -62,11 +74,22 @@ const GitHubLink = styled.a`
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+  @media only screen and (max-width: 480px) {
+   {
+    text:20%;
+  }
+}
+  
 `
 
 const HomeLink = styled(NavLink)`
   margin-right: 500px;
-
+  @media only screen and (max-width: 480px) {
+   {
+    text:20%;
+    margin-left: 0;
+  }
+}
 `
 
 
@@ -75,7 +98,10 @@ const SiteHeader = styled.header`
   display: flex;
   align-content: center;
   justify-content: center;
+
 `
+
+
 
 const Header = ({ siteTitle }) => (
   <SiteHeader>

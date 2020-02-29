@@ -1,6 +1,6 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
-import { css } from "@emotion/core"
+// import { Link, graphql } from "gatsby"
+// import { css } from "@emotion/core"
 import styled from "@emotion/styled"
 
 import Layout from "../components/layout"
@@ -11,12 +11,12 @@ import { faHtml5, faCss3,faJs, faSass, faReact, faNodeJs  } from "@fortawesome/f
 
 
 const icons = {
-  html : <FontAwesomeIcon icon={faHtml5} size="4x"/>,
-  css : <FontAwesomeIcon icon={faCss3} size="4x"/>,
-  js : <FontAwesomeIcon icon={faJs} size="4x"/>,
-  saas : <FontAwesomeIcon icon={faSass} size="4x"/>,
-  react : <FontAwesomeIcon icon={faReact} size="4x"/>,
-  nodejs : <FontAwesomeIcon icon={faNodeJs} size="4x"/>
+  html : <FontAwesomeIcon icon={faHtml5} size="3x"/>,
+  css : <FontAwesomeIcon icon={faCss3} size="3x"/>,
+  js : <FontAwesomeIcon icon={faJs} size="3x"/>,
+  saas : <FontAwesomeIcon icon={faSass} size="3x"/>,
+  react : <FontAwesomeIcon icon={faReact} size="3x"/>,
+  nodejs : <FontAwesomeIcon icon={faNodeJs} size="3x"/>
 }
 
 
@@ -24,6 +24,13 @@ const Content = styled.div`
   margin: 0 auto;
   max-width: 860px;
   padding: 1.45rem 1.0875rem;
+
+  @media only screen and (max-width: 480px) {
+   {
+    max-width: 300px;
+    font-size: 88%;
+  }
+}
 `
 
 const ArticleDate = styled.h5`
@@ -42,10 +49,7 @@ const MarkerHeader = styled.h2`
   );
 `
 
-const ReadingTime = styled.h5`
-  display: inline;
-  color: #606060;
-`
+
 
 const IndexPage = ({ data }) => {
   return (
