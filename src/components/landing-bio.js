@@ -23,6 +23,9 @@ const Description = styled.p`
 
 const NameHeader = styled.h1`
   font-size: 3.5rem;
+  color: #fff;
+  text-stroke: 1px hsla(0, 0%, 0%, 0.8);
+  -webkit-text-stroke: 0.5px hsla(0, 0%, 0%, 0.8);
   margin-bottom: 0;
   border-radius: 1em 0 1em 0;
   background-image: linear-gradient(
