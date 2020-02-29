@@ -92,7 +92,7 @@ const IndexPage = ({ data }) => {
                 <MarkerHeader className="marker-header">Read more </MarkerHeader>
               <li><a href="https://github.com/sumi0820?tab=repositories" target="_blank">GitHub</a></li>
               <li><a href="https://www.linkedin.com/in/sumiya-ushiro-27ba65133/" target="_blank">LinkedIn</a></li>
-              <li><a href="https://drive.google.com/file/d/1ooIInJWSiMgzosI7Hswq9Aj0wp3AUTCV/view?usp=sharing" target="_blank">Resume</a></li>
+              <li>Resume</li>
         </div>
       </Content>
     </Layout>
