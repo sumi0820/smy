@@ -7,7 +7,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faHtml5, faCss3,faJs, faSass, faReact, faNodeJs  } from "@fortawesome/free-brands-svg-icons"
+import { faHtml5, faCss3,faJs, faSass, faReact, faNodeJs } from "@fortawesome/free-brands-svg-icons"
 
 
 const icons = {
@@ -64,7 +64,7 @@ const IndexPage = ({ data }) => {
                 <li>Nationality: Japan</li><br/>
                 <li>After an 1-year work in Japan as <a href="https://drive.google.com/file/d/0B7fGAuDlIdI8NjlWb2duNlNwLVU/view?usp=sharing" target="_blank">an Assistant Production Manager</a> in TV commercial industry, I moved to Singapore and worked as an Operation Program Manager for an outsourcing company. I have developed team and project management skills as well as solution oriented approach through the experience.</li><br/>
 
-                <li>Joining a coding bootcamp at Ironhack Berlin in June 2020. </li><br/>
+                <li>Joining a coding bootcamp at Ironhack Berlin in August 2020. </li><br/>
                 
                 <MarkerHeader className="marker-header">Skillset </MarkerHeader>
                   <h4 className="h4-header">Language</h4>

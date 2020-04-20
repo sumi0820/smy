@@ -2,7 +2,7 @@
 title: "Deep Work v1"
 draft: false
 path: "/project/project-02"
-date: "2020-02-01"
+date: "2019-12-01"
 
 ---
 Timer for deep focus.  

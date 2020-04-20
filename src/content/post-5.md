@@ -30,9 +30,7 @@ Sign in method: Email
 Email: spider-man@gmail.com  
 Password: 123456 
 
-*You can also see posted reviews from a page logo without sign-in, but you need to sign in to see the details.
-
-<a href="https://sumi0820.github.io/cinemaison/about" target="_blank">Demo</a>  
+<a href="https://sumi0820.github.io/cinemaison/" target="_blank">Demo</a>  
 <a href="https://github.com/sumi0820/cinemaison" target="_blank">Source</a>
 
 
