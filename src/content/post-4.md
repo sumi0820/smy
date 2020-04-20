@@ -7,6 +7,12 @@ date: "2020-02-01"
 ---
 Calculate your calories for fat loss and bulking.
 
+Function:  
+    - Automatically calculate your best fat loss/bulking goal
+
+Built with:  
+    - React.js  
+
 ![](./image/project04.png)
 
 <a href="https://sumi0820.github.io/Calorie-Calculator/" target="_blank">Demo</a>  
