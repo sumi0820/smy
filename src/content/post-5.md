@@ -23,7 +23,7 @@ Built with:
 ![](./image/project05-02.png)
 ![](./image/project05-03.png)
 
-<a href="https://sumi0820.github.io/cinemaison/" target="_blank">Demo</a>  
+<a href="https://sumi0820.github.io/cinemaison/about" target="_blank">Demo</a>  
 <a href="https://github.com/sumi0820/cinemaison" target="_blank">Source</a>
 
 
