@@ -5,12 +5,14 @@ path: "/project/project-03"
 date: "2019-12-02"
 
 ---
+### Description
 Book Search. 
 Built with React and Google Books API.
 
 Function:  
     - Search book titles  
- 
+
+### Technology
 Built with:  
     - React.js  
     - Google Books API 

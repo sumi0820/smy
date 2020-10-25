@@ -5,6 +5,7 @@ path: "/project/project-05"
 date: "2020-04-20"
 
 ---
+### Description
 A movie review aggregator website for cinéphiles.
 
 Function:  
@@ -12,7 +13,7 @@ Function:
     - See reviews posted by other users  
     - Search movie titles  
     - Add/remove favorite movie to your my page  
-
+### Technology
 Built with:  
     - React.js  
     - Redux  

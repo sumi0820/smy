@@ -4,12 +4,14 @@ draft: false
 path: "/project/project-01"
 date: "2020-02-01"
 ---
+### Description
 Japanese blog.  
 Built with Gatsby.  
 
 Function:  
     - Post an article through Contentful
- 
+
+### Technology
 Built with:  
     - Gatsby.js  
     - Contentful  

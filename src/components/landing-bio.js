@@ -1,10 +1,17 @@
-import React from "react"
+import React, { useEffect, useRef } from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import styled from "@emotion/styled"
+import icon from "../images/favicon.png"
+
+import { TweenMax, Power3 } from "gsap"
 
 const Container = styled.div`
   text-align: center;
+`
+
+const Img = styled.img`
+  margin-bottom: 0;
 `
 
 const OuterContainer = styled.div`
@@ -31,35 +38,58 @@ const NameHeader = styled.h1`
   background-image: linear-gradient(
     -100deg,
     rgba(255, 250, 150, 0.15),
-    #057989 -50%,
+    #0278ae -50%,
     rgba(255, 250, 150, 0.25)
   );
 `
 
+const LandingBio = () => {
+  let logoItem = useRef(null)
+  console.log("This is",logoItem)
 
+  useEffect(() => {
+    console.log(logoItem);
+    TweenMax.to(
+      logoItem,
+      3,{
+        opacity:1,
+        y:-20,
+        ease: Power3.easeOut,
+        delay:0.2
+      }
+    )
+  }, [])
 
-const LandingBio = () => (
-  <StaticQuery
-    query={graphql`
-      query LandingSiteTitleQuery {
-        site {
-          siteMetadata {
-            title
-            subtitle
+  return (
+    <StaticQuery
+      query={graphql`
+        query LandingSiteTitleQuery {
+          site {
+            siteMetadata {
+              title
+              subtitle
+            }
           }
         }
-      }
-    `}
-    render={data => (
-      <OuterContainer>
-        <Container>
-          <NameHeader>{data.site.siteMetadata.title}</NameHeader>
-          <Description>{data.site.siteMetadata.subtitle}</Description>
-        </Container>
-      </OuterContainer>
-    )}
-  />
-)
+      `}
+      render={data => (
+        <OuterContainer>
+          <Container>
+            <img
+              src={icon}
+              className="landing__img"
+              ref={el => {
+                logoItem = el
+              }}
+              alt="logo"
+            />
+            <Description>{data.site.siteMetadata.subtitle}</Description>
+          </Container>
+        </OuterContainer>
+      )}
+    />
+  )
+}
 
 NameHeader.propTypes = {
   siteTitle: PropTypes.string,

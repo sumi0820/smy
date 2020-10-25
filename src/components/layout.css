@@ -672,3 +672,8 @@ pre tt:after {
 }
 
 /* markdown */
+
+.landing__img{
+  margin: 0;
+  opacity: 0;
+}

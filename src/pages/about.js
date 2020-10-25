@@ -44,7 +44,7 @@ const MarkerHeader = styled.h2`
   background-image: linear-gradient(
     -100deg,
     rgba(255, 250, 150, 0.15),
-    #057989 -50%,
+    #0278ae -50%,
     rgba(255, 250, 150, 0.25)
   );
 `
@@ -64,7 +64,7 @@ const IndexPage = ({ data }) => {
                 <li>Nationality: Japan</li><br/>
                 <li>After an 1-year work in Japan as <a href="https://drive.google.com/file/d/0B7fGAuDlIdI8NjlWb2duNlNwLVU/view?usp=sharing" target="_blank">an Assistant Production Manager</a> in TV commercial industry, I moved to Singapore and worked as an Operation Program Manager for an outsourcing company. I have developed team and project management skills as well as solution oriented approach through the experience.</li><br/>
 
-                <li>Joining a coding bootcamp at Ironhack Berlin in August 2020. </li><br/>
+                <li>Joined a coding bootcamp <a href="https://www.ironhack.com/en" target="_blank">Ironhack</a> from Sep to Nov 2020. </li><br/>
                 
                 <MarkerHeader className="marker-header">Skillset </MarkerHeader>
                   <h4 className="h4-header">Language</h4>

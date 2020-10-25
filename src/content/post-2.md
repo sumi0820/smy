@@ -5,12 +5,14 @@ path: "/project/project-02"
 date: "2019-12-01"
 
 ---
+### Description
 Timer for deep focus.  
 Built with JavaScript. 
 
 Function:  
     - Count time with cozy BGM
  
+### Technology
 Built with:  
     - Vanilla JavaScript 
 
