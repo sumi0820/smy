@@ -1,5 +1,5 @@
 
-![](./image/main_page.png)
+![](./src/content/image/main_page.png)
 
 ## Description
 This is my portfolio site built with GatsbyJS.
