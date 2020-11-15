@@ -70,7 +70,7 @@ const IndexPage = ({ data }) => {
             MERN stack based coding. An insatiable learner who embodies a
             mindset of curiosity and growth, I thrive working on impactful
             projects with collaborative teams.
-          </li>
+          </li>  
           <li>
             After an 1-year work in Japan as{" "}
             <a
