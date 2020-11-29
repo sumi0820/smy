@@ -160,7 +160,7 @@ const IndexPage = ({ data }) => {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/18TaQmLXnPxePPB012VN4bK3bkEFWtofE/view?usp=sharing"
+              href="https://drive.google.com/file/d/14KNz9bZBts0mrAymkTd5y2VHPaTns38F/view?usp=sharing"
               target="_blank"
             >
               Resume
